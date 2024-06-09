@@ -2,12 +2,8 @@
 # Copyright (C) 2024 The New Shop Channel Team.
 # Copyright 2024-2024 Fl0ppyB00k
 
-import os 
-import sys
-import struct
 import tickets
 import requests
-import ssl
 
 http_session = requests.Session()
 retry = requests.adapters.HTTPAdapter(max_retries=3)
