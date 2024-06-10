@@ -1,1 +1,1 @@
-print("empty lol")
+print("errors deez balls")
