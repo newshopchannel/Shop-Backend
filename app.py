@@ -1,9 +1,8 @@
 #app.py
 # Copyright (C) The New Shop Channel Team. 2024
 
-from flask import Flask, send_file, render_template, request, redirect, Response, json
-from werkzeug.serving import WSGIRequestHandler
-from urllib.request import Request, urlopen
+from flask import Flask, send_file, render_template, request, Response
+from urllib.request
 
 
 import requests
